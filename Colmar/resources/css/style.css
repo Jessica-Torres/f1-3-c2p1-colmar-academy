@@ -1,0 +1,511 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+/* Universal Styles -------------------------------------------*/
+html {
+  font-size: 16px;
+  font-family: "source sans pro", "sans-serif";
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+strong {
+  font-weight: bold;
+  color: rgb(0, 0, 102);
+}
+
+h1 {
+  font-family: "roboto";
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(0 ,0, 102);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "roboto";
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 102);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 102);
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .left, .right {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* HEADER SECTION ---------------------------------------------*/
+
+header {
+  display: flex;
+  height: 4rem;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+header .logo {
+  align-items: center;
+  flex-grow: 1;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.logo .icon {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.logotxt {
+  font-size: 1.5rem;
+}
+
+.mobile {
+  display: none;
+  width: 100%;
+}
+
+/* NAVIGATION -----------------------------------------------------*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+  align-items: flex-end;
+}
+
+nav li {
+  display: inline-flex;
+  margin-left: 1rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 102);
+  font-weight: bold;
+}
+
+nav .icon {
+  height: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+  header .mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* BANNER ---------------------------------------------------------*/
+
+.banner {
+  display: flex;
+  background-color: rgb(219, 240, 255);
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid rgb(0, 0, 102);
+}
+
+.banner-image {
+  padding: 2rem 1.5rem 2rem 0;
+}
+
+.banner-image img {
+  max-width: 100%;
+}
+
+.banner .right {
+  display: flex;
+  align-items: center;
+}
+
+.banner .text {
+  padding: 2rem 1.5rem;
+}
+
+.banner h3 {
+  font-weight: normal;
+  color: black;
+}
+
+.button {
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  background-color: rgb(105,105,105);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner-image {
+    padding: 0;
+  }
+  .banner .text {
+    padding: 2rem 1rem;
+  }
+  .banner .right {
+    padding-right: 1.5rem;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner h3 {
+    font-size: 1.2rem;
+  }
+  .banner .text .button {
+    width: 80%;
+    padding: 1rem;
+  }
+}
+
+/* INFORMATION SECTION ---------------------------------------------*/
+
+.information .main {
+  padding: 2rem 1.5rem;
+}
+
+.information .main .image-container {
+  margin-bottom: 2rem;
+}
+
+.information .main img {
+  max-width: 100%;
+}
+
+.information h2 {
+  margin-bottom: 1.5rem;
+}
+.information p {
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+#eman {
+  font-family: sans-serif;
+}
+
+.information .flex {
+  flex-direction: column;
+}
+
+.information .block {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(0, 0, 102);
+}
+
+.information .block:first-child {
+  padding-top: 2rem;
+}
+
+.information .block:last-child {
+  border-bottom: none;
+  background-color: rgb(224, 224, 224);
+  margin-right: 0;
+}
+
+.information .right .image-container {
+  margin-right: 1rem;
+  width: 35%;
+}
+
+.information .right .image-container img {
+  max-width: 100%;
+}
+
+.lecture img {
+  max-width: 100%;
+}
+
+.read-more {
+  color: rgb(0, 0, 204);
+}
+.read-more:hover {
+  color: rgb(0, 0, 102);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .information .block:first-child {
+    padding-top: 1rem;
+  }
+  .information .block {
+    padding: 0.5rem 1rem 0.5rem 0;
+    flex-direction: column;
+    border-bottom: none;
+  }
+  .information .right .image-container {
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+  .information .mobile {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .information .block:last-child {
+    background-color: white;
+    padding-bottom: 2rem;
+  }
+}
+
+/* COURSES --------------------------------------------------------*/
+
+.courses {
+  background-color: rgb(219, 240, 255);
+  padding-bottom: 1rem;
+  border-top: 1px solid rgb(0, 0, 102)
+}
+
+.courses h2 {
+  padding: 2rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+.courses .block-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.courses .block {
+  max-width: 25%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.courses img {
+  max-width: 100%;
+}
+
+.courses .info {
+  height: 11rem;
+  background-color: rgba(0, 0, 102, 0.8);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.courses h3 {
+  color: white
+}
+
+.courses p {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 480px){
+  .courses .block-container {
+    flex-direction: column;
+  }
+  .courses .block {
+    max-width: 100%;
+  }
+  .courses p {
+    display: none;
+  }
+  .courses .info {
+    height: auto;
+  }
+  .courses h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+/* THESIS SECTION --------------------------------------------------*/
+
+.thesis h2 {
+  padding: 2rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+.thesis .main {
+  padding: 0 0.5rem 1rem 1.5rem;
+}
+
+.thesis .main .video-container {
+  margin-bottom: 1.5rem;
+}
+
+.thesis .main video {
+  max-width: 100%;
+}
+
+.thesis .block:first-child {
+  background-color: rgb(219, 240, 255);
+}
+
+.thesis .block {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.thesis .image-container {
+  margin-right: 1rem;
+  width: 35%;
+}
+
+.thesis img {
+  max-width: 100%;
+}
+
+.thesis .info {
+  width: 65%;
+}
+
+@media only screen and (max-width: 480px) {
+  .thesis .main {
+    padding: 2rem 0;
+  }
+}
+
+/* FOOTER ---------------------------------------------------------*/
+
+footer {
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(219, 240, 255);
+  height: 4rem;
+}
+
+footer .disclosure {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .disclosure {
+    display: none;
+  }
+}
